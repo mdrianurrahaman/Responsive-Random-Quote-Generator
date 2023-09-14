@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 219, 219);
+    font-family: 'Nunito',sans-serif;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.card{
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1) ;
+    padding:40px;
+    text-align: center;
+    max-width: 800px;
+    width:90%;
+}
+
+.card-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.qoute-container{
+    margin-bottom: 40px;
+    background-color: rgba(172,172,169);
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+
+}
+
+.qoute-text{
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+
+}
+
+.qoute-author{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.button-container{
+    display: flex;
+    justify-content:space-between;
+    margin-top:20px; 
+}
+
+.btn{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: none;
+    color:#fff;
+    cursor:pointer;
+    padding:10px 10px;
+    font-size: 18px;
+    transition: all 0.2s ease;
+    width:150px;
+}
+
+.btn:hover{
+letter-spacing: 1.4;
+}
+
+.twitter-share-button{
+    background-color: #1da1f2;
+    border-radius: 20px;
+    color:#eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width:50px;  
+}
+
+.twitter-share-button:hover{
+    background-color:rgba(66,196,240);
+}
+
+.twitter-share-button i{
+    font-size: 24px;
+
+}
